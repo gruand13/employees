@@ -16,7 +16,6 @@ const EmployeesList = ({data}) =>{
     return (
         <ul className="app-list list-group">
             {elements}
-
         </ul>
     )
 }
