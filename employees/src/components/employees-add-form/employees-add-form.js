@@ -46,7 +46,7 @@ class EmployeesAddForm extends Component {
                             placeholder="his income in $"
                             name="salary"
                             value={salary}
-                            onChange={this.onValueChange}/>npm start
+                            onChange={this.onValueChange}/>
                         <button type="submit"
                         className="btn btn-outline-light"
                         // onClick={this.onSubmit}
