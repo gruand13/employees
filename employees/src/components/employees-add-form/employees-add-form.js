@@ -33,7 +33,8 @@ class EmployeesAddForm extends Component {
             <div className="app-add-form">
                 <h3>Add new employee</h3>
                 <form 
-                    className="add-form d-flex">
+                    className="add-form d-flex"
+                    onSubmit = {this.onSubmit}>
                         <input type="text" 
                             className="form-control new-post-label"
                             placeholder="what is the name"
@@ -45,10 +46,10 @@ class EmployeesAddForm extends Component {
                             placeholder="his income in $"
                             name="salary"
                             value={salary}
-                            onChange={this.onValueChange}/>
+                            onChange={this.onValueChange}/>npm start
                         <button type="submit"
                         className="btn btn-outline-light"
-                        onClick={this.onSubmit}
+                        // onClick={this.onSubmit}
                         >ADD</button>
     
                 </form>
